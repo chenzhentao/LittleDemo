@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:3:11-36
+	android:versionName
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:6:11-34
+		INJECTED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:5:11-34
+		INJECTED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:8:5-73
+	android:targetSdkVersion
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:8:42-71
+	android:minSdkVersion
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:8:15-41
+application
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:10:5-23:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.android.support.appcompat-v7.xml:19:3-17
+MERGED from [com.android.support:support-v4:23.1.0] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.android.support.support-v4.xml:19:3-17
+MERGED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:4:3-24:17
+MERGED from [com.taobao.android:atlas_core:5.0.6] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlas_core.xml:4:3-6:17
+MERGED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.firstbundle.xml:4:3-6:17
+	android:label
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:10:47-79
+	android:icon
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:10:80-117
+	android:theme
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:11:9-40
+	tools:replace
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:10:18-46
+	android:name
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:12:9-55
+activity#com.taobao.demo.WelcomActivity
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:14:9-21:20
+	android:label
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:16:19-44
+	android:name
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:14:19-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:18:17-68
+	android:name
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:19:27-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:2:1-25:12 reason: android.support.v7.appcompat has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:2:1-25:12 reason: android.support.v7.appcompat has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\src\main\AndroidManifest.xml:2:1-25:12 reason: android.support.v7.appcompat requested WRITE_EXTERNAL_STORAGE
+service#com.taobao.atlas.dexmerge.DexMergeService
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:5:5-9:15
+	android:process
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:5:71-98
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:5:14-70
+intent-filter#com.taobao.atlas.dexmerge.DexMergeService
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:6:7-8:23
+action#com.taobao.atlas.dexmerge.DexMergeService
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:7:9-75
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:7:17-73
+receiver#com.taobao.atlas.update.AwoPatchReceiver
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:10:5-23:16
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:10:15-70
+intent-filter#com.taobao.atlas.intent.PATCH_APP
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:11:7-13:23
+action#com.taobao.atlas.intent.PATCH_APP
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:12:9-67
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:12:17-65
+intent-filter#com.taobao.atlas.intent.DEX_PATCH_APP
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:14:7-16:23
+action#com.taobao.atlas.intent.DEX_PATCH_APP
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:15:9-71
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:15:17-69
+intent-filter#com.taobao.atlas.intent.ROLLBACK_PATCH
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:17:7-19:23
+action#com.taobao.atlas.intent.ROLLBACK_PATCH
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:18:9-72
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:18:17-70
+intent-filter#com.taobao.atlas.intent.ROLLBACK_DEX_PATCH
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:20:7-22:23
+action#com.taobao.atlas.intent.ROLLBACK_DEX_PATCH
+ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:21:9-76
+	android:name
+		ADDED from [com.taobao.android:atlasupdate:1.1.4.5] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlasupdate.xml:21:17-74
+service#com.taobao.android.runtime.Dex2OatService
+ADDED from [com.taobao.android:atlas_core:5.0.6] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlas_core.xml:5:5-99
+	android:process
+		ADDED from [com.taobao.android:atlas_core:5.0.6] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlas_core.xml:5:71-97
+	android:name
+		ADDED from [com.taobao.android:atlas_core:5.0.6] E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.atlas_core.xml:5:14-70
+activity#com.taobao.firstbundle.FirstBundleActivity
+ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.firstbundle.xml:5:5-84
+	android:name
+		ADDED from E:\czt\CPlus\atlas-master\atlas-demo\Litterdemo\app\build\intermediates\manifest-modify\debug\com.taobao.android.firstbundle.xml:5:15-72

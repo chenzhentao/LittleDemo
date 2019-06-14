@@ -1,0 +1,5 @@
+gradleVersion:3.3
+androidPluginVersion:2.3.3
+buildToolsVersion:28.0.3
+compileSdkVersion:android-24
+atlasPluginVersion:2.3.3.beta2

@@ -1,0 +1,5 @@
+int drawable atlas_waitview 0x7f020000
+int id at_circularProgress 0x7f050000
+int id at_progressText 0x7f050001
+int layout atlas_progress 0x7f030000
+int style atlas_default_dialog 0x7f040000

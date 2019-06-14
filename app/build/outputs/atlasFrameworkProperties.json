@@ -1,0 +1,22 @@
+{
+	"bundleInfo":[
+		{
+			"isInternal":true,
+			"contentProviders":[],
+			"dependency":[],
+			"receivers":[],
+			"activities":[
+				"com.taobao.firstbundle.FirstBundleActivity"
+			],
+			"pkgName":"com.taobao.firstbundle",
+			"services":[],
+			"unique_tag":"5df4bc7cbea3895833e3db3a3015111e",
+			"version":"1.0.0@1.0.0",
+			"applicationName":"com.taobao.firstbundle.FirstBundleApplication"
+		}
+	],
+	"outApp":false,
+	"autoStartBundles":"com.taobao.firstbundle",
+	"unit_tag":"a685511fceb0a1643d8f57266957f0a2",
+	"preLaunch":""
+}

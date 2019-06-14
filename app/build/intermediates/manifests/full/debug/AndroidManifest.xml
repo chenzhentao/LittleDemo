@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.taobao.demo" android:versionCode="1" android:versionName="1.0.0">  
+  <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23"/>  
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>  
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>  
+  <application android:name="android.taobao.atlas.startup.AtlasBridgeApplication" android:icon="@drawable/app_launcher" android:label="@string/app_name" android:theme="@style/AppTheme"> 
+    <activity android:name="com.taobao.demo.WelcomActivity" android:label="AtlasDemo"> 
+      <intent-filter> 
+        <action android:name="android.intent.action.MAIN"/>  
+        <category android:name="android.intent.category.LAUNCHER"/> 
+      </intent-filter> 
+    </activity>  
+    <service android:name="com.taobao.atlas.dexmerge.DexMergeService" android:process=":dexmerge"> 
+      <intent-filter> 
+        <action android:name="com.taobao.atlas.dexmerge.DexMergeService"/> 
+      </intent-filter> 
+    </service>  
+    <receiver android:name="com.taobao.atlas.update.AwoPatchReceiver"> 
+      <intent-filter> 
+        <action android:name="com.taobao.atlas.intent.PATCH_APP"/> 
+      </intent-filter>  
+      <intent-filter> 
+        <action android:name="com.taobao.atlas.intent.DEX_PATCH_APP"/> 
+      </intent-filter>  
+      <intent-filter> 
+        <action android:name="com.taobao.atlas.intent.ROLLBACK_PATCH"/> 
+      </intent-filter>  
+      <intent-filter> 
+        <action android:name="com.taobao.atlas.intent.ROLLBACK_DEX_PATCH"/> 
+      </intent-filter> 
+    </receiver>  
+    <service android:name="com.taobao.android.runtime.Dex2OatService" android:process=":dex2oat"/>  
+    <activity android:name="com.taobao.firstbundle.FirstBundleActivity">
+      <meta-data android:name="bundleLocation" android:value="com.taobao.firstbundle"/>
+    </activity>  
+    <meta-data android:name="REAL_APPLICATION" android:value="com.taobao.demo.DemoApplication"/>
+    <meta-data android:name="multidex_enable" android:value="true"/>
+  </application> 
+</manifest>

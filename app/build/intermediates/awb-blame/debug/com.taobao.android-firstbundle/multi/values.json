@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\czt\\CPlus\\atlas-master\\atlas-demo\\Litterdemo\\app\\build\\intermediates\\incremental\\mergeDebugResource[com.taobao.android-firstbundle]\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "E:\\czt\\CPlus\\atlas-master\\atlas-demo\\Litterdemo\\app\\build\\intermediates\\exploded-awb\\com.taobao.android\\firstbundle\\1.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            }
+        ]
+    }
+]

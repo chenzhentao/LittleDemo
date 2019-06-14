@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.taobao.android:atlas_core:5.0.6@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/atlas_core/5.0.6/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/atlas_core/5.0.6/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/atlas_core/5.0.6/jars/libs/dalvik_hack-3.0.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/atlas_core/5.0.6/jars/libs/android-art-interpret-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/atlas_core/5.0.6/jars/libs/dalvikpatch-1.0.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.taobao.android/atlas_core/5.0.6/41931723027f7403fe05a4dd8d5f3869b5c6bc4a/atlas_core-5.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
